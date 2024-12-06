@@ -4,8 +4,8 @@ from copy import deepcopy
 from compression.speedup import speedup
 from config_helpers import *
 from general_utils import LogLevel
-from nni.contrib.compression.pruning import TaylorPruner
-from nni.contrib.compression.utils import TransformersEvaluator
+from nni.compression.pruning import TaylorPruner
+from nni.compression.utils import TransformersEvaluator
 from trainer_utils import *
 from utils import get_model_param_keys
 
